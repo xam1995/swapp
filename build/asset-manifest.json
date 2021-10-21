@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/swapp/static/css/main.69eb7ccb.chunk.css",
+    "main.js": "/swapp/static/js/main.7650881b.chunk.js",
+    "main.js.map": "/swapp/static/js/main.7650881b.chunk.js.map",
+    "runtime-main.js": "/swapp/static/js/runtime-main.1d8c92b7.js",
+    "runtime-main.js.map": "/swapp/static/js/runtime-main.1d8c92b7.js.map",
+    "static/js/2.9a298f6a.chunk.js": "/swapp/static/js/2.9a298f6a.chunk.js",
+    "static/js/2.9a298f6a.chunk.js.map": "/swapp/static/js/2.9a298f6a.chunk.js.map",
+    "static/js/3.e011ecb5.chunk.js": "/swapp/static/js/3.e011ecb5.chunk.js",
+    "static/js/3.e011ecb5.chunk.js.map": "/swapp/static/js/3.e011ecb5.chunk.js.map",
+    "index.html": "/swapp/index.html",
+    "static/css/main.69eb7ccb.chunk.css.map": "/swapp/static/css/main.69eb7ccb.chunk.css.map",
+    "static/js/2.9a298f6a.chunk.js.LICENSE.txt": "/swapp/static/js/2.9a298f6a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/swapp/static/media/Starjhol.c247ee68.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d8c92b7.js",
+    "static/js/2.9a298f6a.chunk.js",
+    "static/css/main.69eb7ccb.chunk.css",
+    "static/js/main.7650881b.chunk.js"
+  ]
+}

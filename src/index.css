@@ -1,0 +1,227 @@
+@font-face {
+  font-family: StarWars;
+  src: url(Starjhol.ttf);
+}
+
+@font-face {
+  font-family: StarWarsText;
+  src: url(Starjedi.ttf);
+}
+
+@font-face {
+  font-family: Moon;
+  src: url(Moon.otf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button.navigation {
+  font-family: StarWars;
+  padding-top: 0.3vh;
+  padding-left: 2vw;
+  background-color: black;
+  color: white;
+  font-size: 4vh;
+  border: 0;
+}
+
+button.navigation:hover {
+  color: yellow;
+}
+
+div.top-banner {
+  height: 8vh;
+  background-image: url("https://i.pinimg.com/564x/4a/a9/9b/4aa99b6ad2d2cbc7cb04a41571885a8f.jpg");
+}
+
+div.sideBar {
+  font-family: StarWarsText;
+  width: 33%;
+  min-height: 76vh;
+  max-height: 77vh;
+  background-color: #131313;
+  margin-top: 5vh;
+  margin-bottom: 6vh;
+  margin-left: 33%;
+  padding-left: 0%;
+  padding-top: 1%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+div.InfoCard {
+  visibility: visible;
+  width: 65vw;
+  float: right;
+  background-color: #000000;
+  color: white;
+  height: 80vh;
+  margin-top: 5vh;
+  margin-right: 10vh;
+}
+
+div.ImageHeader {
+  float: right;
+  margin-left: 4.5%;
+  margin-top: 3%;
+  height: 00%;
+  width: 00%;
+  border: 0;
+}
+
+label.tableRow {
+  visibility: visible;
+  padding-bottom: 1%;
+  margin: 0;
+}
+
+button.searchButton {
+  background-color: #131313;
+  height: 100%;
+  width: 16%;
+  border: 0;
+}
+
+button.searchButton:hover {
+  background-color: #303030;
+}
+
+input.searchField {
+  padding-left: 2%;
+  padding-bottom: 2%;
+  font-family: Moon;
+  margin-left: 2%;
+  width: 78%;
+  color: white;
+  background-color: #131313;
+  border: 0;
+}
+div.DataTable {
+  font-family: Moon;
+  font-size: 10px;
+  display: flex;
+  position: relative;
+  float: right;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-top: 0%;
+  height: 10%;
+  width: 100%;
+  border: 0;
+}
+
+p.LoadText {
+  margin-left: 4%;
+  color: grey;
+}
+
+div.searchArea {
+  margin-left: 4%;
+  width: 90%;
+  margin-bottom: 2%;
+  border: 0.1px rgb(112, 112, 112) solid;
+}
+
+div.hiddenData {
+  font-family: Moon;
+  width: 100%;
+  height: 10%;
+}
+div.collapsible {
+  padding-left: 5%;
+  color: white;
+}
+div.collapsible:hover {
+  color: yellow;
+}
+th,
+td {
+  padding-right: 5px;
+  text-align: center;
+}
+
+.glow:before,
+.glow::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    45deg,
+    #071980,
+    #0c27be,
+    #0a5cb9,
+    #3108a0,
+    #b92d0a,
+    #6a0ce4,
+    #1a0ce5
+  );
+  background-size: 270%;
+  left: 32.9%;
+  top: 15.5%;
+  width: calc(33% + 0.2%);
+  height: calc(78.8% + 0.2%);
+  z-index: -1;
+}
+
+.glow::after {
+  filter: blur(40px);
+}
+
+div.deathstar {
+  z-index: -2;
+  float: left;
+  width: 33%;
+  margin-top: 3%;
+  filter: brightness(85%);
+}
+
+div.bb8 {
+  z-index: -2;
+  margin-top: 20%;
+  margin-right: 8%;
+  float: right;
+  width: 15vw;
+  filter: brightness(85%);
+}
+
+div.bb8:hover {
+  animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(6deg);
+  }
+}
+
+.floating:hover {
+  animation-name: floating;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 30px);
+  }
+  50% {
+    transform: translate(0, 45px);
+  }
+  100% {
+    transform: translate(0, 30px);
+  }
+}
